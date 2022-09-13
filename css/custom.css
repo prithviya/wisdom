@@ -1,0 +1,284 @@
+ .mr h4 {
+  font-size: 28px !important;
+  text-align: center;
+  font-weight: bold !important;
+
+}
+.uop {
+  background: #efe8e8;
+  padding: 20px 40px;
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 1110px;
+  border-radius: 0px;
+  position: relative;
+  top: 0px;
+  margin: 0px 15px;
+  margin: 0 auto;
+}
+.sunstone-benefits-card-single {
+  padding: 20px 14px 14px 20px;
+  position: relative;
+  cursor: pointer;
+  min-height: 300px;
+  height: 100%;
+}
+    .services-block-three{
+  margin-bottom" 30px;
+}
+.services-block-three > .mr {
+  text-align: left !important;
+}
+.services-block-three i {
+    font-size: 32px;
+}
+.mrty {
+  text-align: center;
+}
+.top-address .button {
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+.top-address .button .ma {
+  background: #22366a !important;
+  color: #fff !important;
+  padding: 6px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+.services-block-three>.mr {
+    display: block;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    text-align: center;
+    background: #fff;
+    padding:0px;
+    position: relative;
+  margin-bottom:30px;
+
+}.top-header {
+  padding:7px 0;
+  background:#22366a!important;
+  position: relative;
+  z-index: 1;
+}
+.top-address p a {
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.top-address p span, .top-address p a {
+  margin-right: 0px;
+}
+.top-address p a, .top-right-menu ul.social-icons li a, .top-address p span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.rk {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+    right: 15px;
+  width: 74px;
+  position: absolute;
+}
+.rk p a, .top-right-menu ul.social-icons li a, .top-address p span {
+  color: #000;
+  font-size: 18px ;
+  font-weight: 400;
+  text-align:right;
+  float:right;
+  width:50%;
+}
+.rk .ma{
+  color: #000;
+  font-size: 18px !important ;
+  font-weight: 400;
+  text-align:right
+}
+.button .ma {
+  background: #22366a !important;
+  color: #fff !important;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+.numer {
+  background: #e9ebf0;
+  padding: 40px 0px;
+}
+
+.close {
+  background: #22366a;
+  width: 31px;
+  height: 29px;
+  text-align: center;
+  border-radius: 50px;
+  opacity: 1;
+  color: #fff;
+}
+.padding-15px-bottom {
+    padding-bottom: 15px;
+}
+.services-block-three h4 {
+    /*color: #22366a;*/
+    font-size: 14px;
+        font-weight: 600;
+}
+.services-block-three p {
+    margin-bottom: 0;
+  color: #757575;
+}
+.services-block-three>a:hover {
+    opacity: 1;
+    border-color: #d5d5d5;
+}
+a:hover, a:active {
+    color: #03a9f5;
+    text-decoration: none;
+}
+
+.services-block-three>a:hover:before, .services-block-three>a:hover:after {
+    width: 95%;
+    height: 90%;
+}
+    .sunstone-benefits .grid-container.sunstone-benefits-cards {
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 20px;
+}
+.sunstone-benefits-card-single:after {
+    content: "";
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #22366a;
+    display: block;
+}
+
+.sunstone-benefits .grid-container.sunstone-benefits-cards {
+    grid-row-gap: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 30px;
+}
+.sunstone-benefits-card-single.pink {
+    background-color: #e397a2;
+}
+
+@media (min-width: 992px)
+.sunstone-benefits-card-single {
+    height: 335px;
+}
+.sunstone-benefits-card-single {
+    padding: 20px 14px 14px 20px;
+    position: relative;
+    cursor: pointer;
+}
+.sunstone-benefits-card-icon {
+    width: 83px;
+    height: 69px;
+}
+.sunstone-benefits-card-number {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    letter-spacing: -.03em;
+    display: inline-block;
+    margin: 22px 12px 20px 0;
+    color: #fff;
+}
+.sunstone-benefits-card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -.011em;
+    color: #fff;
+    margin: 22px 0 20px;
+    display: inline-block;
+    width: 139px;
+}
+.sunstone-benefits-card-text {
+    font-weight: 700;
+    color: #22366a;
+}
+.sunstone-benefits-card-single.green {
+    background-color: #b1c78f;
+}
+.sunstone-benefits-card-single.purple {
+    background-color: #b1a8cd;
+}
+.sunstone-benefits-card-single.blue {
+    background-color: #96c0d9;
+}
+.jk {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 10px 0px 0px;
+}
+.current {
+  background: #22366a !important;
+  color: #fff !important;
+}
+.d-hide{display:block}
+.m-hide{display:none}
+
+
+
+
+
+@media (min-width: 768px) {
+
+.top-header {
+  display: none;
+}
+
+.d-hide{display:none}
+.m-hide{display:block}
+
+
+}
+
+@media (max-width: 768px) {
+.uop {
+  background: #efe8e8;
+  padding: 20px 40px;
+  color: #000;
+  border-radius: 5px;
+  width: 100%;
+  border-radius: 0px;
+  position: relative;
+  top: -30px;
+  margin: 0px 15px 20px;
+}
+
+}
+
+.rkn{background: #22366a;
+width: auto;
+height: 29px;
+text-align: center;
+border-radius: 0px;
+opacity: 1;
+color: #fff;
+font-size: 15px;
+padding: 6px 10px 10px;
+font-weight: 500;
+position:absolute;
+right:0px;
+bottom:0px;
+}

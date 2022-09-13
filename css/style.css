@@ -1,0 +1,372 @@
+body{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+header {
+  background: white;
+  padding: 10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+}
+a{
+  text-decoration: none !important;
+}
+.hero-text a:hover {
+  background: #22366a !important;
+  color: #000;
+}
+.services-block-three {
+  cursor: pointer;
+  color: #22366a;
+}
+.project_desc_1 {
+  padding: 15px;
+}
+.project_desc_1 h2, h3, h4 {
+  font-size: 22px;
+  font-weight: bold;
+  /*! background: #fff; */
+}
+.project_desc_1 {
+  background: #fff;
+  margin-top: 10px;
+}
+.thdsss {
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+
+header .logo {
+  width: 50%;
+  float: left;
+}
+.grayd {
+  background: #edf2f7;
+}
+section {
+  padding: 30px 0px;
+}
+
+.srt {
+  text-align: center;
+}
+.srt img {
+  width: 100%;
+}
+.button {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.button .ma {
+ background: #22366a !important;
+color: #fff !important;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Banner GD Goenka University Campus.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+.logo img {
+  width: 205px;
+  position: relative;
+  top: 10px;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.pd{padding-bottom:50px}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+       .color {
+  background: #22366a !important;
+}
+
+.hero-text a {
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  background: #22366a !important;
+  color: #fff !important;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  font-weight: bold;
+}
+.hero-text h1 {
+  padding: 0px 0px 28px 0px;
+  font-weight: bold;
+}
+ h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+.grayd {
+  text-align: center;
+}
+.box1 {
+  background: #22366a !important;
+  backdrop-filter: blur(4px);
+  color: #fff;
+  border-radius: 4px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2),0 4px 20px 0 rgba(0,0,0,.1);
+  border: 1px solid #56b3e8;
+  padding: 10px;
+  max-height: 608px;
+  height: 100%;
+}
+
+.desd {
+  text-align: left;
+  margin: 10px 0px;
+}
+.desd h4 {
+  font-size: 21px;
+  font-weight: bold;
+}
+.grayd h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.srt6 {
+  background:#e9ebf0;
+}
+h2.srt66{
+  font-size: 32px;
+  padding: 0px 0px 40px 0px;
+  text-align: center;
+  color: #fff;
+}
+.srt69 {
+  background:#22366a;
+}
+.srt69 .color {
+  background: #e9ebf0 !important;
+  color: #000;
+}
+footer {
+  background: #22366a !important;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  margin: 0px;
+}
+
+.hed_col1{
+  color:#c88c32;
+
+}
+.hed_col2{
+  color:#22366a;
+}
+
+.services-box {
+  padding: 65px 0px 68px 0px;
+}
+.heading-section {
+  margin-bottom: 20px;
+}
+.service-box.service-style-two {
+  
+  text-align: center;
+  position: relative;
+  background: #fff;
+  transition: 0.5s;
+  z-index: 1;
+  box-shadow: 0px 0 6px rgb(26 46 85 / 10%);
+  margin: 0 0 30px;
+}
+.service-box.service-style-two::before {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ff3c00;
+}
+.service-box.service-style-two {
+  text-align: center;
+}
+.service-box-title {
+  overflow: hidden;
+}
+.service-box.service-style-two .service-box-title h2 {
+  margin: 25px 0 15px 0;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: 500;
+}
+.service-box.service-style-two .service-btn > a, .service-box.service-style-two .service-box-desc p {
+  transition: 0.5s;
+}
+.service-box.service-style-two .service-btn {
+  margin-top: 0;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.4s;
+  transform: scale(0);
+}
+.service-box.service-style-two .service-btn > a {
+  color: #ff3c00;
+  display: inline-block;
+}
+.service-box.service-style-two .service-btn > a, .service-box.service-style-two .service-box-desc p {
+  transition: 0.5s;
+}
+.service-btn > a {
+  border-radius: 30px;
+  color: #616161;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.service-box.service-style-two:hover::before {
+  height: 100%;
+}
+.service-box.service-style-two::before {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background:#c9ccd1;
+  color: #fff;
+}
+.service-box-desc {
+  padding: 5px;
+}
+.service-box-desc2 {
+  background: #e9ebf0;
+  padding: 10px;
+  color: #363434;
+  position: absolute;
+  bottom: 0;
+}
+.service-box.service-style-two {
+  min-height: 237px;
+  height: 100%;
+}
+.mrty .fa {
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 992.98px) { 
+.logo img {
+  width: 176px;
+  top: 0;
+}
+.mr .fa.fa-angle-double-down {
+  font-size: 20px !important;
+}
+.mr h4 {
+  font-size: 20px !important;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.top-address p a, .top-right-menu ul.social-icons li a, .top-address p span {
+  font-size: 13px !important;
+}
+.services-block-three > .mr {
+  height: 100%;
+}
+.srt69 .box1.color {
+  max-width: 850px !important;
+  height: 100%;
+  min-height: 850px !important;
+}
+.hero-image {
+  height: 269px;
+}
+
+.col-lg-6 {
+  margin-bottom: 20px;
+}
+.col-lg-3 {
+  margin-bottom: 20px;
+}
+.button {
+  display: none;
+}
+.hero-text {
+  text-align: center;
+  position: unset;
+  top: 50%;
+  left: 50%;
+  transform: unset;
+  color: white;
+}
+.hero-text h1 {
+  padding: 42px 10px;
+  font-weight: bold;
+  font-size: 28px;
+}
+.services-box {
+  padding: 20px 0px;
+}
+ }
+
+.jk1 {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 10px 0px 0px;
+  z-index: 10000000;
+  top: 0;
+}
